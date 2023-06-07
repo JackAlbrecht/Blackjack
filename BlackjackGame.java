@@ -4,7 +4,7 @@ public class BlackjackGame {
     public static void main(String[] args) {
         int wins = 0; // Tracks the number of wins
         int losses = 0; // Tracks the number of losses
-        boolean playAgain = true; // Controls if the player wants to play again
+        boolean playAgain = true; // Controls if the player wants to play again 
 
         while (playAgain) {
             Deck deck = new Deck(); // Create a new deck of cards
