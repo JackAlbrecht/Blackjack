@@ -1,5 +1,5 @@
 # Blackjack
-Blackjack is a program to demonstrate a Stacks and Queues. This allows us to deal, shuffle, count, and get a value for each card in the customary fashion of blackjack.
+Blackjack is a program to demonstrate Stacks and Queues. This allows us to deal, shuffle, count, and get a value for each card in the customary fashion of blackjack.
 
 This program uses 3 classes:
 - BlackjackGame: This is where the game operations are performed including the dealing, hitting/standing, and winning/losing.
