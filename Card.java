@@ -1,20 +1,20 @@
 import java.util.*;
 
 class Card {
-    private String suit;
-    private String rank;
+    private String suit; // Stores the suit of the card
+    private String rank; // StoreS the rank of the card
 
     public Card(String suit, String rank) {
-        this.suit = suit;
-        this.rank = rank;
+        this.suit = suit; // Initialize the suit of the card
+        this.rank = rank; // Initialize the rank of the card
     }
 
     public String getSuit() {
-        return suit;
+        return suit; // Return the suit of the card
     }
 
     public String getRank() {
-        return rank;
+        return rank; // Return the rank of the card
     }
 
     public int getValue() {
@@ -28,6 +28,6 @@ class Card {
     }
 
     public String toString() {
-        return rank + " of " + suit;
+        return rank + " of " + suit; // Return a string representation of the card in the format "<rank> of <suit>"
     }
 }
