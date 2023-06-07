@@ -1,4 +1,4 @@
-java.util.*;
+import java.util.*;
 
 class Deck {
     private Stack<Card> cards; // Stores the cards in the deck
